@@ -1,0 +1,36 @@
+/*nav*/
+#iconnav{
+    font-size:36px;
+    padding-top: 5px;
+  }
+#sidebar-wrapper{
+  background-color: #004792;
+}
+.navindexbtn{
+  background-color: #004792;
+  color: white;
+  box-shadow: none;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 3px solid #004792;
+  height: 65px;
+  border-radius: 0px;
+  width: 60%;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+
+}
+.navindexbtn:hover{
+  background-color: #87CEFA; 
+  border-top: 5px solid rgba(185, 185, 185, 0.56);
+  border-bottom: 5px solid rgba(185, 185, 185, 0.56);
+  border-left:none;
+  border-right: none;
+  border-radius: 0px;
+  width: 100%;
+  transition: width  2s;
+  transition-duration: 3s;
+  box-shadow: 5px 5px 5px -1px silver;
+
+}
