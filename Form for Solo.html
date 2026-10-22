@@ -268,6 +268,19 @@
       
       <input class="login-button" type="submit" value="Set an appointment">
     </form>
+	
+	<script>
+function myFunction() {
+  let text = "Do you confirm all information is correct?";
+  if (confirm(text) == true) {
+    alert("Thank you for confirming your appointment within the mentorship program. We appreciate you booking this session and We are excited to support you on your journey!");
+  } else {
+    alert("Please complete the information to proceed in Mentorship Program, Thank you!");
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+	
 </center>
 
 
